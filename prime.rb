@@ -11,4 +11,7 @@ def prime?(int)
     nums.each do |number|
       if int % number == 0 
         return false 
+      end
+    end
+    true
 end
