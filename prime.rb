@@ -7,5 +7,7 @@ def prime?(int)
   elsif int == 3 
     return true 
   elsif int > 3
-    
+    nums = (2..int).to_a 
+    nums.each do |number|
+      if 
 end
